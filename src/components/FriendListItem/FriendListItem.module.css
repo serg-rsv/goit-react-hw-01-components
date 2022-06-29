@@ -1,0 +1,41 @@
+.item {
+  min-width: 250px;
+
+  display: flex;
+  align-items: center;
+  justify-items: start;
+
+  margin-bottom: 8px;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  border-radius: 4px;
+
+  box-shadow: 0 1px 2px 1px var(--text-second-color);
+}
+
+.status {
+  width: 20px;
+  height: 20px;
+
+  margin-right: 16px;
+
+  border-radius: 50%;
+
+  background-color: red;
+}
+
+.online {
+  background-color: green;
+}
+
+.avatar {
+  margin-right: 16px;
+}
+
+.name {
+  font-size: 24px;
+}
